@@ -1,0 +1,15 @@
+{
+    "name": "@framework-tools/scalr",
+    "type": "module",
+    "version": "0.0.4",
+    "description": "Container orchastration system",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "scalr": "./cli.js"
+    }
+}
