@@ -1,0 +1,17 @@
+{
+  "name": "@framework-tools/cluster",
+  "version": "0.0.1",
+  "description": "Cluster for sclar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Marashi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "etcd3": "^1.0.2",
+    "koa": "^2.13.0"
+  }
+}
