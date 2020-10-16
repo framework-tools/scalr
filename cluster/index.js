@@ -51,7 +51,10 @@ let info = {
 
 async function getEC2AccessToken() {
     console.log('Printing token:')
-    console.log(await axios.put('http://169.254.169.254/latest/api/token'))
+    console.log(await axios({
+        method: 'put',
+        url: 'http://169.254.169.254/latest/api/token'
+    }))
     let { data } = await axios.put('http://169.254.169.254/latest/api/token', null,  {
         headers: {
             'X-aws-ec2-metadata-token-ttl-seconds': '21600'
