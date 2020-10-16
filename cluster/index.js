@@ -1,3 +1,5 @@
+console.log('hello')
+
 import Koa from 'koa'
 import etcd from 'etcd3';
 import axios from 'axios';
@@ -9,7 +11,7 @@ const client = new Etcd3();
 // console.log(await client.get('foo'))
 
 let app = new Koa()
-app.listen(80)
+// app.listen(80)
 
 // setup koa app that sets up API
 // use etcd for APi
