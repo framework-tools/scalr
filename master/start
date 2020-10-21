@@ -1,4 +1,8 @@
 #!/bin/sh
-service docker start && \
-docker build ./etcd -t etcd && \
-docker run etcd
+
+nodemon index.js
+#service docker start && \\
+
+
+
+#docker build ./etcd -t etcd && docker run etcd
